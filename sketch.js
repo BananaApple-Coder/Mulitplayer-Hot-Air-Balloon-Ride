@@ -75,12 +75,12 @@ function draw() {
 // }
 
 
-// function updateHeight(x,y){
-//   database.ref('balloon/height').set({
-//     'x': height.x + x ,
-//     'y': height.y + y
-//   })
-// }
+ function updateHeight(x,y){
+   database.ref('balloon/height').set({
+     'x': height.x + x ,
+     'y': height.y + y
+   })
+ }
 
 
 // function updateHeight(x,y){
@@ -99,11 +99,11 @@ function draw() {
 //   balloon.y = height.y;
 // }
 
-// function readHeight(data){
-//   height = data.val();
-//   balloon.x = height.x;
-//   balloon.y = height.y;
-// }
+ function readHeight(data){
+   height = data.val();
+   balloon.x = height.x;
+   balloon.y = height.y;
+ }
 
 // function readHeight(data){
 //   height = data.val();
